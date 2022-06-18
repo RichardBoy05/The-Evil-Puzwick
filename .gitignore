@@ -1,3 +1,6 @@
 
 *.xml
 .idea/The-Evil-Puzwick.iml
+__pycache__/Utils.cpython-310.pyc
+*.pyc
+__pycache__/Utils.cpython-310.pyc

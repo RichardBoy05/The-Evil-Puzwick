@@ -3,11 +3,13 @@
 from tkinter import *
 from Utils import randomize_position
 import sys
+import os
 
 WIDTH = 350
 HEIGHT = 148
 BG_COLOR = "#8a8281"
 UNLOCK_CODE = "yX4eaY@v"
+ABSOLUTE_PATH = os.getenv('APPDATA')
 
 
 def init():
@@ -21,7 +23,7 @@ def init():
     win.geometry(str(WIDTH) + 'x' + str(HEIGHT) + '+' + coordinates[0] + '+' + coordinates[1])
 
     win.title("The Evil Puzwick")
-    icon = PhotoImage(file='hid/puzwick_ico.png', master=win)
+    icon = PhotoImage(file=ABSOLUTE_PATH + '\TheEvilPuzwick\puzwick_ico.png', master=win)
     win.iconphoto(True, icon)
     win.config(bg=BG_COLOR)
 
@@ -43,7 +45,7 @@ def init():
             entry.delete(0, END)
             init()
 
-    image = PhotoImage(file='hid/puzwick.png', master=win)
+    image = PhotoImage(file=ABSOLUTE_PATH + '\TheEvilPuzwick\puzwick.png', master=win)
     image_label = Label(win, image=image)
     text_label = Label(win, text="Heilà!!! Carino questo computer, penso\n"
                                  "che mi stabilirò qui! Ti consiglio di non\n"
