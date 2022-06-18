@@ -6,7 +6,3 @@ def randomize_position(win, width, height):
     y = randint(0, win.winfo_screenheight() - height)
 
     return str(x), str(y)
-
-
-def disable_closing():
-    pass
