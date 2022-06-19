@@ -55,4 +55,4 @@ Tencnologie utilizzate:
 
 ### Contattami :wave:
 ***
-In caso di problemi, curiosità o domande, sentiti libero di [contattarmi](mailto:richard.meoli.2005@gmail.com?subject=[TheEvilPuzwick]).
+In caso di problemi, curiosità o domande, sentiti libero di [contattarmi](mailto:richard.meoli.2005@gmail.com?subject=TheEvilPuzwick).
