@@ -10,7 +10,7 @@
 ### Informazioni generali :book:
 ***
 **The Evil Puzwick** è un semplice programma che emula il comportamento di un virus informatico: tuttavia,
-è **interamente privo di codice malevolo**. L'obiettivo dietro la realizzazione dello stesso non è infatti quello
+è **interamente PRIVO di codice malevolo**. L'obiettivo dietro la realizzazione dello stesso non è infatti quello
 di danneggiare la macchina dell'utente, ma quello di spronarlo a trovare un modo di rimuovere questo "virus".
 Qualora non ne fosse in grado, è sufficiente ricorrere all'apposito [tool](https://github.com/RichardBoy05/The-Evil-Puzwick/releases/tag/virus-remover)
 per la rimozione.
